@@ -1,8 +1,8 @@
 export const FIREBASE_CONFIG = {
-    apiKey: "AIzaSyBhbO3O_rDLfywT07iK_wUGj3b-zcTjlwU",
-    authDomain: "fir-auth-b0d63.firebaseapp.com",
-    databaseURL: "https://fir-auth-b0d63.firebaseio.com",
-    projectId: "fir-auth-b0d63",
-    storageBucket: "fir-auth-b0d63.appspot.com",
-    messagingSenderId: "376794210707"
+    apiKey: "AIzaSyDnvDSr9NwBuA87R2_Y4cU9LHUqnOExQjs",    
+    authDomain: "iotlamptoggle.firebaseapp.com",
+    databaseURL: "https://iotlamptoggle.firebaseio.com/",
+    projectId: "iotlamptoggle",
+    storageBucket: "iotlamptoggle.appspot.com/",
+    messagingSenderId: "875830686361"
 };
