@@ -2,7 +2,8 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { User } from "../../models/user";
 import { AngularFireAuth } from 'angularfire2/auth';
-import {HomePage} from '../home/home';
+import { HomePage } from '../home/home';
+import { RegisterPage } from '../register/register';
 
 //@IonicPage()
 @Component({
@@ -32,7 +33,7 @@ export class LoginPage {
   }
  
   register() {
-    this.navCtrl.push('RegisterPage');
+    this.navCtrl.push(RegisterPage);
   }
 
 
