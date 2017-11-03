@@ -6,28 +6,28 @@
 -->
 <ion-header>
 
-  <ion-navbar>
-    <ion-title>Home</ion-title>
-  
-  </ion-navbar>
+    <ion-navbar>
+        <ion-title>Home</ion-title>
+
+    </ion-navbar>
 
 </ion-header>
 
 
 <ion-content padding>
-  <button ion-button (click)="logout()" text-right >Logout</button>  
-  <br>
-  <ion-list>
+    <button ion-button (click)="logout()" text-right>Logout</button>
+    <br>
+    <ion-list>
 
-  <ion-item>
-    <ion-label>Lamp1</ion-label>
-    <ion-toggle [(ngModel)]="lamp1"></ion-toggle>
-  </ion-item>
+        <ion-item>
+            <ion-label>Lamp1</ion-label>
+            <ion-toggle [(ngModel)]="lamp1" (ionChange)="UpdateLampOne(lamp1)"></ion-toggle>
+        </ion-item>
 
-  <ion-item>
-    <ion-label>Lamp2</ion-label>
-    <ion-toggle [(ngModel)]="lamp2"></ion-toggle>
-  </ion-item>
+        <ion-item>
+            <ion-label>Lamp2</ion-label>
+            <ion-toggle [(ngModel)]="lamp2" (ionChange)="UpdateLampTwo(lamp2)"></ion-toggle>
+        </ion-item>
 
-  </ion-list>
+    </ion-list>
 </ion-content>

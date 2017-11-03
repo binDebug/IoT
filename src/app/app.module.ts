@@ -12,6 +12,9 @@ import { LoginPage } from '../pages/login/login';
 import { RegisterPage } from '../pages/register/register';
 import { HomePage } from '../pages/home/home';
 
+import {LoggerService} from '../core/logger.service';
+import {MQTTService} from '../core/mqtt.service';
+
 @NgModule({
   declarations: [
     MyApp,
@@ -35,6 +38,7 @@ import { HomePage } from '../pages/home/home';
   providers: [
     StatusBar,
     SplashScreen,
+    LoggerService, MQTTService,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })
